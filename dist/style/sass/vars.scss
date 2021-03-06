@@ -1,0 +1,20 @@
+.theme-default {
+    --primary: 249, 37, 36;
+    --primary-dark: 233, 27, 26;
+    --primary-filter: invert(34%) sepia(84%) saturate(5081%) hue-rotate(347deg) brightness(96%) contrast(104%);
+    --text-block: 122, 131, 158;
+}
+
+.theme-strength{
+    --primary: 016, 112, 173;
+    --primary-dark: 011, 80, 122;
+    --primary-filter: invert(31%) sepia(86%) saturate(815%) hue-rotate(172deg) brightness(95%) contrast(99%);    
+    --text-block: 122, 131, 158;
+}
+
+.theme-dark{
+    --primary: 011, 80, 122;
+    --primary-dark: 18, 67, 97;
+    --primary-filter: invert(19%) sepia(21%) saturate(6405%) hue-rotate(182deg) brightness(97%) contrast(91%);
+    --text-block: 122, 131, 158;
+}

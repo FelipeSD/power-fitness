@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.36" height="24.36" viewBox="0 0 24.36 24.36">
+  <g id="instagram" transform="translate(0.2 24.16) rotate(-90)">
+    <g id="Group_1285" data-name="Group 1285">
+      <g id="Group_1284" data-name="Group 1284">
+        <path id="Path_1209" data-name="Path 1209" d="M17,0H6.96A6.968,6.968,0,0,0,0,6.96V17a6.968,6.968,0,0,0,6.96,6.96H17A6.968,6.968,0,0,0,23.96,17V6.96A6.968,6.968,0,0,0,17,0Zm5.088,17A5.094,5.094,0,0,1,17,22.088H6.96A5.094,5.094,0,0,1,1.872,17V6.96A5.094,5.094,0,0,1,6.96,1.872H17A5.094,5.094,0,0,1,22.088,6.96Z" fill="#181818" stroke="#000" stroke-width="0.4"/>
+      </g>
+    </g>
+    <g id="Group_1287" data-name="Group 1287" transform="translate(5.522 5.522)">
+      <g id="Group_1286" data-name="Group 1286">
+        <path id="Path_1210" data-name="Path 1210" d="M6.458,0a6.458,6.458,0,1,0,6.458,6.458A6.465,6.465,0,0,0,6.458,0Zm0,11.044a4.586,4.586,0,1,1,4.586-4.586A4.591,4.591,0,0,1,6.458,11.044Z" fill="#181818" stroke="#000" stroke-width="0.4"/>
+      </g>
+    </g>
+    <g id="Group_1289" data-name="Group 1289" transform="translate(17.596 4.493)">
+      <g id="Group_1288" data-name="Group 1288">
+        <ellipse id="Ellipse_91" data-name="Ellipse 91" cx="0.936" cy="0.936" rx="0.936" ry="0.936" fill="#181818" stroke="#000" stroke-width="0.4"/>
+      </g>
+    </g>
+  </g>
+</svg>

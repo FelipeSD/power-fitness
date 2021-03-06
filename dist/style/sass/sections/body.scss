@@ -1,0 +1,110 @@
+.first-section{
+    position: relative;
+    margin-top: 15rem;
+    
+    .title-1{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    
+    .title-2{
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .description-1{
+        width: 55%;
+    }
+
+    .img-gym-woman-1{
+        position: absolute;
+        z-index: -1;
+        right: -120px;
+        top: -180px;
+        width: 50%;
+    }
+
+    .square-ellipses{
+        @include svg(#f4f5fa, 414px, 414px);
+
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: 20%;
+        top: 5%;
+        z-index: -3;
+    }
+
+    .gray-ellipse{
+        @include svg(#f4f5fa, 220px, 220px);
+        
+        position: absolute;
+        right: 22%;
+        top: 15%;
+        z-index: -2;
+    }
+
+    .blue-ellipse{
+        @include svg(#85A4FF, 120px, 120px);
+
+        position: absolute;
+        right: -3%;
+        z-index: -2;
+    }
+
+    .red-ellipse{
+        @include svg(#FDDFDF, 117px, 117px);
+
+        position: absolute;
+        right: 28%;
+        // top: 120%;
+        z-index: -2;
+    }    
+}
+
+.second-section{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: row;
+
+    .division{
+        width: 50%;
+
+        &.image-container{
+            position: relative;
+            left: -100px;
+        }
+        
+        .article{
+            padding: 10px;
+        }
+    }   
+
+
+    .left-wave{
+        @include svg(#f92524, 500px, 850px);
+        position: absolute;
+        left: -1%;
+        z-index: -1;
+    }
+
+    .usermedia{
+        width: 478px;
+        position: absolute;
+        left: 12%;
+        margin-top: 60px;
+    }
+
+    .title-1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}
+
+.our-trainers{
+    margin-top: 5rem;
+    .title-1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}

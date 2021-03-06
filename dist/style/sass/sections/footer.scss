@@ -1,0 +1,68 @@
+.footer{
+    height: auto;
+    width: 1358px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 8rem;
+    left: -10%;
+
+    font-size: .75rem;
+    color: #fff;
+
+    hr{
+        &.line{
+            border-color: #fff;
+        }
+    }
+
+    .footer-content{
+        padding: 8rem 8rem 0 8rem;
+        margin-top: 3rem;
+    }
+
+    .title-1{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .section-container{
+        display: flex;
+
+        .division{
+            width: 50%;
+            padding-right: 10px;
+        }
+    }
+
+    .copyright{
+        display: flex;
+        padding: 27px;
+
+        span {
+            margin-left: 43vw;
+        }
+    }
+
+    .footer-wave{
+        @include svg(#f92524, 2800px, auto);
+
+        position: absolute;
+        z-index: -2;
+        left: -95%;
+    }
+
+    .logo-image{
+        @include svg(#fff, 1.5rem, 1.5rem);                    
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(104%) contrast(101%);
+        width: 100px;
+        height: 100px;
+    }
+
+    .icons-container{
+        display: inline;
+
+        img {
+            margin-right: 15px;
+        }
+    }
+}

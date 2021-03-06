@@ -1,0 +1,110 @@
+    
+    .header {
+        display: flex;
+
+        .navbar {
+            display: flex;
+            margin-left: auto;
+
+            .navbar-list{
+                display: flex;
+                list-style: none;
+                margin: auto 0 auto 0;
+
+                .navbar-item{
+                    font-weight: 200;
+                    font-size: 18px;
+
+                    padding: 0 10px 5px 10px;
+
+                    &:not(:last-child):hover{
+                        cursor: pointer;
+                        border-bottom: 2px solid #{'rgb(var(--primary))'};
+                    }
+                }
+            }
+
+        }
+        
+        .logo-container{
+            margin-top: 1.5rem;
+            display: flex;
+            position: relative;
+            
+            .btn-responsive-hamburger{
+                display: none;
+
+                padding-right: 1rem;
+                margin-left: auto;
+
+                background: none;
+                border: none;
+
+                .mini-weight{
+                    @include svg(#f4f5fa, 1.5rem, 1.5rem);                    
+                }
+            }
+
+            .logo-image{
+                @include svg(#f92524, 1.5rem, 1.5rem);                    
+
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+
+        .title{
+            font-weight: bold;
+            font-size: 2rem;
+
+            margin-left: 1rem;
+            margin-top: 2.5rem;
+        }
+
+        .gray-ellipse{
+            @include svg(#f4f5fa, 480px, 456px);    
+
+            position: absolute;
+            top: -12rem;
+            left: -10rem;
+            z-index: -1;
+        }
+
+        .config-bar{
+            position: absolute;
+            width: 100%;
+            height: 55px;
+
+            -webkit-box-shadow: 4px 20px 81px -28px rgba(0,0,0,0.75);
+            -moz-box-shadow: 4px 20px 81px -28px rgba(0,0,0,0.75);
+            box-shadow: 4px 20px 81px -28px rgba(0,0,0,0.75);
+
+            .theme-selector{
+                width: 20px;
+                height: 20px;
+
+                z-index: unset;
+
+                border-radius: 100%;
+                margin-right: 5px;
+
+                cursor: pointer;
+
+                &.selected{
+                    border: 2px solid #358B94;
+                }
+                
+                &.theme-default{
+                    background-color: #{'rgb(var(--primary))'};
+                }
+                &.theme-strength{
+                    background-color: #{'rgb(var(--primary))'};
+                }
+                &.theme-dark{
+                    background-color: #{'rgb(var(--primary))'};
+                }
+            }
+
+        }
+    }

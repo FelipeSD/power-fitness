@@ -1,0 +1,12 @@
+.theme-dark{
+    background-color: #36393f;
+    color: #ffffff;
+
+    .text-block{
+        color: #b9bbbe!important;
+    }
+
+    .gray-ellipse{
+        filter: invert(17%) sepia(4%) saturate(1260%) hue-rotate(185deg) brightness(93%) contrast(90%)!important;
+    }
+}
